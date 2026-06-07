@@ -1,4 +1,4 @@
-# System 5 Brains
+# Multy-agentic-system-on-gemini-API
 
 Мультиагентная система на базе фреймворка `google-genai`.
 
