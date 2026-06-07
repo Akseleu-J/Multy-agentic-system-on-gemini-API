@@ -1,1 +1,12 @@
-# Multy-agentic-system-on-gemini-API
+# System 5 Brains
+
+Мультиагентная система на базе фреймворка `google-genai`.
+
+## Архитектура
+
+- `main.py`: Точка входа и Менеджер агентов.
+- `agents/base.py`: Базовый класс агента, логирование и утилиты генерации текста.
+- `agents/prompter.py`: Оптимизация входящих запросов.
+- `agents/coder.py`: Генерация исходного кода.
+- `agents/tester.py`: Автоматическое написание тестов.
+- `agents/shield.py`: Модуль безопасности (защита от Prompt Injection/OWASP).
